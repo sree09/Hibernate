@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="hibernate.RegisterBean" table="users">
+        <id column="user_name" name="userName" type="string" />
+        <property column="full_name" name="fullName" type="string" />
+        <property column="password" name="password" type="string" />
+    </class>
+</hibernate-mapping>

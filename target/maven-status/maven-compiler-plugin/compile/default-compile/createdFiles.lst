@@ -1,0 +1,6 @@
+hibernate\CarBean.class
+hibernate\RegisterServlet.class
+hibernate\CarServlet.class
+hibernate\RegisterBean.class
+hibernate\LoginServlet.class
+hibernate\userDAO.class
